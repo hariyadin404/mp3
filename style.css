@@ -1,0 +1,39 @@
+body {background: #ccc; color: #333; font: normal 12px Verdana; margin: 0;}
+a {color: #C00; text-decoration: none;}
+a:hover {color: #C0A; text-decoration: none;}
+#container
+{margin: auto;
+max-width: 480px;}
+#header
+{padding: 5px; background: #fff;}
+input[type=text]{background: #fff; padding: 3px; border: 1px solid #bbb; color: black; text-decoration: none; margin: 2px;}
+input[type=submit]{background: #ff7518; padding: 3px; border: 1px solid #ff7518; color: white; font-weight: bold; text-decoration: none; margin: 1px;}
+input[type=submit]:hover{background: #0059b3; border: 1px solid #0059b3;}
+form.search input[type=text]{padding: 4px;}
+form.search input[type=text]:hover{border: 1px solid #0059b3;}
+form.search input[type=text]:focus{border: 2px solid #3fb618;}
+form.search input[type=submit]{padding: 4px;}
+#content
+{background: #fff;}
+#content h1.title {color: #333; font-weight: bold;text-align:left; padding: 4px; margin: 0; text-decoration: none; font-size: medium;}
+#content .menu {padding: 3px 10px; border-bottom: 1px solid #ddd; text-decoration: none;}
+#content .menu:hover {background: #ddd;}
+.menu h2{margin: 0; padding: 4px; font-size: medium;}
+#content .paging {clear: both; padding: 4px; border-bottom: 1px solid #ddd; text-align: center;}
+#content .paging a {display: inline-block; margin: 2px; text-decoration: none;}
+#content .paging span {display: inline-block; margin: 2px; text-decoration: none;}
+h4{margin: 0; padding: 3px;}
+ul.related{margin: 0; padding: 0 5px; list-style-type: none;}
+ul.related li{padding: 3px 0px;}
+#sidebar
+{background: #fff;}
+#sidebar h3 {background: #0059b3; color: #fff; font-weight: bold; text-align: left; padding: 2px; margin: 0; text-decoration: none; font-size: medium;}
+#sidebar ul{list-style-type: none; margin: 2px 0; padding: 0 3px;}
+#sidebar li {padding: 3px; text-decoration: none; border-bottom: 1px solid #ddd;}
+#sidebar li a{color: #444; text-decoration: none;}
+#sidebar li:hover{background: #ddd;}
+#sidebar li a:hover{color: #3fb618; text-decoration: none;}
+#footer
+{clear: both; text-align: center; padding: 3px; text-decoration: none; background: #fff;}
+p#breadcrumb {margin: 0; padding: 5px; text-align: justify;}
+.adv {background: #fff9d7; border: 1px solid #e2c822; padding: 7px; text-align: center; font-weight: bold;}
